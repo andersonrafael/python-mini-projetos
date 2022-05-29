@@ -11,11 +11,11 @@
 
 #>>>>>  CALCULANDO O DOBRO DE UM NUMERO E SUA RAIZ QUADRADA  <<<<<<
 
-n1 = int(input('digite um mumero:'))
-d = n1+n1
-r = n1*n1
+#n1 = int(input('digite um mumero:'))
+#d = n1+n1
+#r = n1*n1
 
-print('numero: {} seu dobro: {} sua raiz quadrada : {}'.format(n1,d,r))
+#print('numero: {} seu dobro: {} sua raiz quadrada : {}'.format(n1,d,r))
 
 #>>>>>>> CONVERTER METROS E CENTIMENTROS EM MILIMETROS <<<<<<
 
@@ -49,3 +49,23 @@ print('numero: {} seu dobro: {} sua raiz quadrada : {}'.format(n1,d,r))
 #vf = v - vd
 
 #print('O valor do produto sem desconto é: {0}\n O valor dodesconto é: {1}\n O valor final do produto com desconto é: {2}'.format(v,vd,vf))
+
+#>>>>>>>>>> DIGIANDO UM NUMERO E SUA TABUADA <<<<<<<<<<<<<<
+
+#import math
+#num1= int(input('Digite um numero:'))
+#num2 = 1
+#res1 = num1 * 1
+#num3 = 2
+#res2 = num1 * 2
+#num4 = 3
+#res3 = num1 * 3
+
+#print('{} x {} = {}'.format(num1,num2,res1 ))
+#print('{} x {} = {}'.format(num1,num3,res2 ))
+#print('{} x {} = {}'.format(num1,num4,res3 ))
+
+import math
+num = int(input("Digite um numero: "))
+raiz = math.sqrt(num)
+print('A raiz quadradada de :{} \n É: {}'.format(num,math.ceil(raiz)))
