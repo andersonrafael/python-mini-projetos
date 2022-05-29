@@ -65,7 +65,9 @@
 #print('{} x {} = {}'.format(num1,num3,res2 ))
 #print('{} x {} = {}'.format(num1,num4,res3 ))
 
-import math
+#>>>>>>> CALCULANDO A RAIZ QUADRADA DE UM NUMERO <<<<<<<<<
+
+from math import sqrt
 num = int(input("Digite um numero: "))
-raiz = math.sqrt(num)
-print('A raiz quadradada de :{} \n É: {}'.format(num,math.ceil(raiz)))
+raiz = sqrt(num)
+print('A raiz quadradada de :{} \n É: {:.0f}'.format(num,raiz))
