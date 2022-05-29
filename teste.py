@@ -67,7 +67,11 @@
 
 #>>>>>>> CALCULANDO A RAIZ QUADRADA DE UM NUMERO <<<<<<<<<
 
-from math import sqrt
-num = int(input("Digite um numero: "))
-raiz = sqrt(num)
-print('A raiz quadradada de :{} \n É: {:.0f}'.format(num,raiz))
+#from math import sqrt
+#num = int(input("Digite um numero: "))
+#raiz = sqrt(num)
+#print('A raiz quadradada de :{} \n É: {:.0f}'.format(num,raiz))
+
+import random
+num  = random.randint(1,100)
+print(' O numero sorteado foi: {}'.format(num))
