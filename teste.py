@@ -89,3 +89,5 @@
 #cateto2 = int(input("qual a medido do cateto adjacente?"))
 #hipo = cateto1 **2 + cateto2 **2
 #print('O cateto oposto é: {}\n O cateto adjacente é:{}\n A hipotenusa é:{}'.format(cateto1**2,cateto2**2,hipo))
+
+#
