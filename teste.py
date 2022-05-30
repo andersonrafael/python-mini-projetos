@@ -72,6 +72,20 @@
 #raiz = sqrt(num)
 #print('A raiz quadradada de :{} \n É: {:.0f}'.format(num,raiz))
 
-import random
-num  = random.randint(1,100)
-print(' O numero sorteado foi: {}'.format(num))
+#>>>>>>>>> SELEÇÃO DE NUMEROS ALEATORIOS <<<<<<<
+#import random
+#num  = random.randint(1,100)
+#print(' O numero sorteado foi: {}'.format(num))
+
+
+#>>>>>>>>>>>>>> emojis <<<<<<<<<
+
+#import emoji
+#print(emoji.emojize("ola mundo :sunglasses:!",use_aliases=True))
+
+#>>>>>>> CALCULANDO A HIPOTENUSA DE UM TRIANGULO RETAGULO <<<<<<<
+
+#cateto1 = int(input("qual a medido do cateto oposto?"))
+#cateto2 = int(input("qual a medido do cateto adjacente?"))
+#hipo = cateto1 **2 + cateto2 **2
+#print('O cateto oposto é: {}\n O cateto adjacente é:{}\n A hipotenusa é:{}'.format(cateto1**2,cateto2**2,hipo))
