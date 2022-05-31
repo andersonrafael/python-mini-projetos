@@ -84,10 +84,25 @@
 #print(emoji.emojize("ola mundo :sunglasses:!",use_aliases=True))
 
 #>>>>>>> CALCULANDO A HIPOTENUSA DE UM TRIANGULO RETAGULO <<<<<<<
-
+# >>>>> MANEIRA OPCIONAL <<<<<<
 #cateto1 = int(input("qual a medido do cateto oposto?"))
 #cateto2 = int(input("qual a medido do cateto adjacente?"))
 #hipo = cateto1 **2 + cateto2 **2
 #print('O cateto oposto é: {}\n O cateto adjacente é:{}\n A hipotenusa é:{}'.format(cateto1**2,cateto2**2,hipo))
 
-#
+#>>>>>>> CALCULANDO A HIPOTENUSA DE UM TRIANGULO RETAGULO <<<<<<<
+#usando modulo math.hypot
+import math
+co = float(input('cateto oposto:'))
+ca = float(input('cateto adjacente:'))
+hi = math.hypot(co,ca)
+print('A hipotenusa vai medir:{:.1f}'.format(hi))
+
+#>>>>>>>>> SORTEIO DE NUMEROS ALEATORIOS <<<<<<<
+#import random
+#maria = 1
+#pedro = 2
+#ze = 3
+#ana = 4
+#sorteio  = random.randint(1,4)
+#print(' maria:{}\n pedro:{}\n ze:{}\n ana:{}\n O numero sorteado foi: {}'.format(1,2,3,4,sorteio))
